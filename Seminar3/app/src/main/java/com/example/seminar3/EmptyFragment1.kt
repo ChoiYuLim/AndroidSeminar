@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.bumptech.glide.Glide
 import com.example.seminar3.databinding.FragmentEmpty1Binding
 import com.google.android.material.tabs.TabLayoutMediator
 
@@ -20,9 +21,17 @@ class EmptyFragment1 : Fragment() {
         _binding = FragmentEmpty1Binding.inflate(layoutInflater, container, false)
 
         initAdapter()
+        initImage()
         initTabLayout()
 
         return binding.root
+    }
+
+    private fun initImage() {
+        Glide.with(this)
+            .load("https://avatars.githubusercontent.com/u/89780201?s=200&v=4")
+            .circleCrop()
+            .into(binding.ivProfile)
     }
 
     private fun initAdapter(){

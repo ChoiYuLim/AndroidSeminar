@@ -4,26 +4,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#FFCACA"
+    android:background="#FFF1F1"
     tools:context=".EmptyFragment1">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="첫 번째 프래그먼트"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/iv_profile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintBottom_toTopOf="@id/tl_simple"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/ic_android" />
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tl_simple"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_marginTop="60dp"
+        app:layout_constraintTop_toBottomOf="@id/iv_profile"
         tools:ignore="SpeakableTextPresentCheck">
 
     </com.google.android.material.tabs.TabLayout>

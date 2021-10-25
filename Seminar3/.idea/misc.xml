@@ -4,12 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/yulim/Seminar3/app/src/main/res/drawable/ic_android.xml" value="0.23055555555555557" />
+        <entry key="..\:/Users/yulim/Seminar3/app/src/main/res/font/noto_sans_kr.xml" value="0.2271794871794872" />
         <entry key="..\:/Users/yulim/Seminar3/app/src/main/res/layout/activity_main.xml" value="0.15" />
         <entry key="..\:/Users/yulim/Seminar3/app/src/main/res/layout/fragment_empty1.xml" value="0.1" />
         <entry key="..\:/Users/yulim/Seminar3/app/src/main/res/layout/fragment_empty2.xml" value="0.1" />
         <entry key="..\:/Users/yulim/Seminar3/app/src/main/res/layout/fragment_empty3.xml" value="0.1" />
         <entry key="..\:/Users/yulim/Seminar3/app/src/main/res/layout/fragment_tab1.xml" value="0.1" />
-        <entry key="..\:/Users/yulim/Seminar3/app/src/main/res/layout/fragment_tab2.xml" value="0.1" />
+        <entry key="..\:/Users/yulim/Seminar3/app/src/main/res/layout/fragment_tab2.xml" value="0.22" />
         <entry key="..\:/Users/yulim/Seminar3/app/src/main/res/menu/menu.xml" value="0.1" />
         <entry key="..\:/Users/yulim/Seminar3/app/src/main/res/menu/menu_sample.xml" value="0.23697916666666666" />
       </map>
